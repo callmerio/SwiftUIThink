@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA52A07A2B502F1500862517 /* ToggleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA52A0792B502F1500862517 /* ToggleBootcamp.swift */; };
+		EA52A07C2B50340300862517 /* PickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA52A07B2B50340300862517 /* PickerBootcamp.swift */; };
+		EA52A07E2B50583D00862517 /* ColorPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA52A07D2B50583D00862517 /* ColorPickerBootcamp.swift */; };
+		EA52A0802B5059AB00862517 /* DatePickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA52A07F2B5059AB00862517 /* DatePickerBootcamp.swift */; };
 		EA62CDCE2B49067300B68FA2 /* SwiftUIThingkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA62CDCD2B49067300B68FA2 /* SwiftUIThingkApp.swift */; };
 		EA62CDD02B49067300B68FA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA62CDCF2B49067300B68FA2 /* ContentView.swift */; };
 		EA62CDD22B49067500B68FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA62CDD12B49067500B68FA2 /* Assets.xcassets */; };
@@ -41,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA52A0792B502F1500862517 /* ToggleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBootcamp.swift; sourceTree = "<group>"; };
+		EA52A07B2B50340300862517 /* PickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootcamp.swift; sourceTree = "<group>"; };
+		EA52A07D2B50583D00862517 /* ColorPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBootcamp.swift; sourceTree = "<group>"; };
+		EA52A07F2B5059AB00862517 /* DatePickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerBootcamp.swift; sourceTree = "<group>"; };
 		EA62CDCA2B49067300B68FA2 /* SwiftUIThingk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIThingk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA62CDCD2B49067300B68FA2 /* SwiftUIThingkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIThingkApp.swift; sourceTree = "<group>"; };
 		EA62CDCF2B49067300B68FA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +127,10 @@
 				EA7B6B122B4EE6600071BFD8 /* sheetsBootCamp.swift */,
 				EA7B6B142B4EF4050071BFD8 /* popoverBootcamp.swift */,
 				EA7B6B162B4EFACC0071BFD8 /* NavigationViewBootcamp.swift */,
+				EA52A0792B502F1500862517 /* ToggleBootcamp.swift */,
+				EA52A07B2B50340300862517 /* PickerBootcamp.swift */,
+				EA52A07D2B50583D00862517 /* ColorPickerBootcamp.swift */,
+				EA52A07F2B5059AB00862517 /* DatePickerBootcamp.swift */,
 			);
 			path = SwiftUIThingk;
 			sourceTree = "<group>";
@@ -278,12 +290,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA52A0802B5059AB00862517 /* DatePickerBootcamp.swift in Sources */,
 				EA7B6B152B4EF4060071BFD8 /* popoverBootcamp.swift in Sources */,
 				EA62CDD02B49067300B68FA2 /* ContentView.swift in Sources */,
+				EA52A07E2B50583D00862517 /* ColorPickerBootcamp.swift in Sources */,
 				EAAF6CFE2B492D8A0035E1AB /* TextTourch.swift in Sources */,
 				EAAF6D002B4977660035E1AB /* FrameBootcamp.swift in Sources */,
 				EA7B6B112B4EDE260071BFD8 /* TransitionBootcamp.swift in Sources */,
 				EAAF6D022B4EC44F0035E1AB /* AnimationTimingBootcamp.swift in Sources */,
+				EA52A07A2B502F1500862517 /* ToggleBootcamp.swift in Sources */,
+				EA52A07C2B50340300862517 /* PickerBootcamp.swift in Sources */,
 				EA62CDCE2B49067300B68FA2 /* SwiftUIThingkApp.swift in Sources */,
 				EA7B6B132B4EE6600071BFD8 /* sheetsBootCamp.swift in Sources */,
 				EA7B6B172B4EFACC0071BFD8 /* NavigationViewBootcamp.swift in Sources */,

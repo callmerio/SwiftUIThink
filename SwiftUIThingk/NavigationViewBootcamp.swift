@@ -9,7 +9,27 @@ import SwiftUI
 
 struct NavigationViewBootcamp: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+            ScrollView{
+                NavigationLink("Second One"){MyOtherScreen()}
+                ForEach(0..<10) { _ in
+                    Text("Hello, World")
+                }
+            }
+            .navigationTitle("All Inboxes")
+            .navigationBarTitleDisplayMode(.automatic)
+//            .toolbar(.hidden)
+        }
+    }
+}
+
+struct MyOtherScreen: View {
+    var body: some View{
+        ZStack {
+            Color.green
+        }
+        .ignoresSafeArea(edges: .all)
+        .navigationTitle("Green Screen")
     }
 }
 
