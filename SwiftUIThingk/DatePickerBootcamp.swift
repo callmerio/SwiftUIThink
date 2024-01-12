@@ -6,6 +6,8 @@
 //  有多个不同的UI
 
 import SwiftUI
+import UIKit
+
 
 struct DatePickerBootcamp: View {
     @State var selectedDate : Date = Date()
@@ -19,12 +21,15 @@ struct DatePickerBootcamp: View {
             Text("Select Date")
             Text(selectedDate.formatted(date: .numeric, time: .standard))
             DatePicker("Select Date", selection: $selectedDate, in: startDate...endDate, displayedComponents: [.hourAndMinute,.date])
-                .accentColor(.red)
+//                .accentColor(.purple) // 日期选择器的主题颜色
                 .tint(.orange)
-            .datePickerStyle(.compact)
+                // 背景颜色是橘黄色
+                .foregroundColor(.purple) // 设置字体颜色为紫色
+                .datePickerStyle(.compact)
         }
     }
 }
+
 
 #Preview {
     DatePickerBootcamp()
