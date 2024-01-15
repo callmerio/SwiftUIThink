@@ -26,6 +26,8 @@
 		EA92B9B52B516AFE00E5279A /* SliderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA92B9B42B516AFE00E5279A /* SliderBootcamp.swift */; };
 		EA92B9B72B5175A400E5279A /* TabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA92B9B62B5175A400E5279A /* TabViewBootcamp.swift */; };
 		EA92B9B92B518A9200E5279A /* PageTabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA92B9B82B518A9200E5279A /* PageTabViewBootcamp.swift */; };
+		EA92B9BB2B51A43E00E5279A /* OnAppearBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA92B9BA2B51A43E00E5279A /* OnAppearBootcamp.swift */; };
+		EA92B9BF2B51A8DB00E5279A /* IfLetGuardBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA92B9BE2B51A8DB00E5279A /* IfLetGuardBootcamp.swift */; };
 		EAAF6CFE2B492D8A0035E1AB /* TextTourch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF6CFD2B492D8A0035E1AB /* TextTourch.swift */; };
 		EAAF6D002B4977660035E1AB /* FrameBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF6CFF2B4977660035E1AB /* FrameBootcamp.swift */; };
 		EAAF6D022B4EC44F0035E1AB /* AnimationTimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAF6D012B4EC44F0035E1AB /* AnimationTimingBootcamp.swift */; };
@@ -71,6 +73,8 @@
 		EA92B9B42B516AFE00E5279A /* SliderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBootcamp.swift; sourceTree = "<group>"; };
 		EA92B9B62B5175A400E5279A /* TabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp.swift; sourceTree = "<group>"; };
 		EA92B9B82B518A9200E5279A /* PageTabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTabViewBootcamp.swift; sourceTree = "<group>"; };
+		EA92B9BA2B51A43E00E5279A /* OnAppearBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBootcamp.swift; sourceTree = "<group>"; };
+		EA92B9BE2B51A8DB00E5279A /* IfLetGuardBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardBootcamp.swift; sourceTree = "<group>"; };
 		EAAF6CFD2B492D8A0035E1AB /* TextTourch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTourch.swift; sourceTree = "<group>"; };
 		EAAF6CFF2B4977660035E1AB /* FrameBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootcamp.swift; sourceTree = "<group>"; };
 		EAAF6D012B4EC44F0035E1AB /* AnimationTimingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootcamp.swift; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 				EA52A07F2B5059AB00862517 /* DatePickerBootcamp.swift */,
 				EA92B9B42B516AFE00E5279A /* SliderBootcamp.swift */,
 				EA92B9B62B5175A400E5279A /* TabViewBootcamp.swift */,
+				EA92B9BA2B51A43E00E5279A /* OnAppearBootcamp.swift */,
+				EA92B9BE2B51A8DB00E5279A /* IfLetGuardBootcamp.swift */,
 				EA92B9B82B518A9200E5279A /* PageTabViewBootcamp.swift */,
 			);
 			path = SwiftUIThingk;
@@ -304,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA52A0802B5059AB00862517 /* DatePickerBootcamp.swift in Sources */,
+				EA92B9BB2B51A43E00E5279A /* OnAppearBootcamp.swift in Sources */,
 				EA7B6B152B4EF4060071BFD8 /* popoverBootcamp.swift in Sources */,
 				EA62CDD02B49067300B68FA2 /* ContentView.swift in Sources */,
 				EA52A07E2B50583D00862517 /* ColorPickerBootcamp.swift in Sources */,
@@ -317,6 +324,7 @@
 				EA92B9B72B5175A400E5279A /* TabViewBootcamp.swift in Sources */,
 				EA62CDCE2B49067300B68FA2 /* SwiftUIThingkApp.swift in Sources */,
 				EA7B6B132B4EE6600071BFD8 /* sheetsBootCamp.swift in Sources */,
+				EA92B9BF2B51A8DB00E5279A /* IfLetGuardBootcamp.swift in Sources */,
 				EA7B6B172B4EFACC0071BFD8 /* NavigationViewBootcamp.swift in Sources */,
 				EA92B9B52B516AFE00E5279A /* SliderBootcamp.swift in Sources */,
 			);
